@@ -27,7 +27,4 @@ lazy val layout = (project in file("./layout"))
 
 def defaultLibraries = Seq(
   "org.typelevel" %% "cats-mtl" % "1.4.0",
-  "org.typelevel" %% "cats-effect-testing-scalatest" % "1.5.0" % Test,
-  "org.typelevel" %% "cats-effect" % "3.5.2" % Test,
-  "org.scalatest" %% "scalatest" % "3.2.18" % Test
 )
